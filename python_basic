@@ -1,0 +1,2069 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "697794cc-7f62-44a7-8ecb-e74f2fe8814e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello, World!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "a4395602-872e-4341-9337-653b2f991a7a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Five is greater than two!\n"
+     ]
+    }
+   ],
+   "source": [
+    "# syntax \n",
+    "if 5 > 2:\n",
+    "  print(\"Five is greater than two!\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "62f1a2f3-f629-4762-b162-cead5bc892d6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "# create variable\n",
+    "a=10\n",
+    "b=4\n",
+    "print(a)\n",
+    "print(b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "1fa4ab1c-5a7b-4287-a808-848370e4a8e7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'str'>\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#type of data type \n",
+    "a=\"shorya\"\n",
+    "b=10\n",
+    "c=1.0\n",
+    "print(type(a))\n",
+    "print(type(b))\n",
+    "print(type(c))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "7922433c-bcfe-40a6-94a1-ef3148a96374",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#var name(case sensitive and single and double quote are equal \n",
+    "_myName=\"harry\"\n",
+    "MyName=\"cena\"\n",
+    "myname=\"ramesh\"\n",
+    "My_Name_Is=\"abhi\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "13843740-2525-4313-8f4c-c63c7e6fc549",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "blue\n",
+      "blue\n"
+     ]
+    }
+   ],
+   "source": [
+    "#assign one value to multiple values\n",
+    "a=b=\"blue\"\n",
+    "print(a)\n",
+    "print(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "fe9b2778-57be-4657-b931-1d1646193e09",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my name is\n",
+      "my name is\n"
+     ]
+    }
+   ],
+   "source": [
+    "#output variable\n",
+    "a=\"my\"\n",
+    "b=\"name\"\n",
+    "c=\"is\"\n",
+    "print(a,b,c)\n",
+    "# (+) is used only for same type of data type\n",
+    "a=\"my \"\n",
+    "b=\"name \"\n",
+    "c=\"is\"\n",
+    "print(a + b + c)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "8b0c464a-4f79-4414-93c8-f2d394153796",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my branch is data science\n"
+     ]
+    }
+   ],
+   "source": [
+    "#global variable\n",
+    "a=\"data science\"\n",
+    "def myfunc():\n",
+    "    print(\"my branch is \" + a)\n",
+    "\n",
+    "myfunc()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "a8d5f45a-0504-4124-9f12-5d0b8dd80038",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#data type(str,float,int,complex,list,tuple,set,dict.range,bool,bytes,NoneType)\n",
+    "a=\"hello\"\n",
+    "print(a)\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "4a7ba709-6078-4601-acf4-851e705c7cdd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "1.0\n",
+      "1j\n",
+      "<class 'int'>\n",
+      "<class 'float'>\n",
+      "<class 'complex'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#number(int,float,complex)\n",
+    "a=10\n",
+    "b=1.0\n",
+    "c=1j\n",
+    "print(a)\n",
+    "print(b) \n",
+    "print(c)\n",
+    "print(type(a))\n",
+    "print(type(b))\n",
+    "print(type(c))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "249e10be-ca18-4039-b310-8123bc51ff97",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "yes\n"
+     ]
+    }
+   ],
+   "source": [
+    "#boolean\n",
+    "def func():\n",
+    "    return True\n",
+    "    #return False\n",
+    "\n",
+    "if func():\n",
+    "    print(\"yes\")\n",
+    "else: \n",
+    "    print(\"no\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "728e8b25-281e-4e55-b654-89986972dcf8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "True\n",
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "#operators(arithmetic(+,-),comparison(<,>),assign(+=,-=),logical(and,or,not),bitwise\n",
+    "#membership\n",
+    "a = [\"apple\", \"banana\"]\n",
+    "print(\"banana\" in a)\n",
+    "#identity\n",
+    "x = [\"apple\", \"banana\"]\n",
+    "y = [\"apple\", \"banana\"]\n",
+    "z = x\n",
+    "print(x is z)\n",
+    "# returns True because z is the same object as x\n",
+    "print(x is y)\n",
+    "# returns False because x is not the same object as y, even if they have the same content\n",
+    "print(x == y)\n",
+    "# to demonstrate the difference betweeen \"is\" and \"==\": this comparison returns True because x is equal to y\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "ee59386a-7dbd-4871-a4cf-a91107f468db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a and b are equal\n"
+     ]
+    }
+   ],
+   "source": [
+    "#statement(if,else if,elif)\n",
+    "a = 200\n",
+    "b = 200\n",
+    "if a > b:\n",
+    "  print(\"a is greater than b\")\n",
+    "elif a < b:\n",
+    "  print(\"b is greater than a\")\n",
+    "else:\n",
+    "  print(\"a and b are equal\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "32c17946-a359-4f74-82a4-1ae9cfc972db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['blue', 'red', 'yellow', 'violet', 'red']\n",
+      "5\n",
+      "<class 'list'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#lists[order,changeable,duplicate]\n",
+    "color=[\"blue\",\"red\",\"yellow\",\"violet\",\"red\"]\n",
+    "print(color)\n",
+    "print(len(color))\n",
+    "print(type(color))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "d35dcffc-004a-4a27-b59c-b4e951e228c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "pink\n",
+      "red\n",
+      "['blue', 'violet', 'pink']\n",
+      "['magenta', 'violet', 'pink', 'brown', 'red', 'blue']\n",
+      "['apple', 'watermelon']\n",
+      "['apple', 'mango', 'watermelon', 'orange', 'kiwi', 'orange']\n",
+      "['blue', 'violet', 'brown', 'red', 'blue']\n",
+      "['blue', 'violet', 'brown', 'red']\n",
+      "[]\n"
+     ]
+    }
+   ],
+   "source": [
+    "#list\n",
+    "color=[\"blue\",\"violet\",\"pink\",\"brown\",\"red\",\"blue\"]\n",
+    "#access items\n",
+    "print(color[2])\n",
+    "print(color[-2])\n",
+    "#range\n",
+    "print(color[0:3])\n",
+    "#change\n",
+    "color[0]=\"magenta\"\n",
+    "print(color)\n",
+    "\n",
+    "fruit = [\"apple\", \"banana\", \"cherry\"]\n",
+    "fruit[1:3] = [\"watermelon\"]\n",
+    "print(fruit)\n",
+    "fruit.append(\"orange\")\n",
+    "fruits = (\"kiwi\", \"orange\")\n",
+    "fruit.insert(1,\"mango\")\n",
+    "fruit.extend(fruits)\n",
+    "print(fruit)\n",
+    "\n",
+    "#remove\n",
+    "color=[\"blue\",\"violet\",\"pink\",\"brown\",\"red\",\"blue\"]\n",
+    "color.remove(\"pink\")\n",
+    "print(color)\n",
+    "#remove from specified position\n",
+    "color.pop(4)\n",
+    "print(color)\n",
+    "#clear(empty the list)\n",
+    "color.clear()\n",
+    "print(color)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "20be136f-b3c9-4530-91ef-0a982f6937aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apple\n",
+      "banana\n",
+      "mango\n",
+      "grape\n",
+      "apple\n",
+      "banana\n",
+      "mango\n",
+      "grape\n"
+     ]
+    }
+   ],
+   "source": [
+    "#loop list\n",
+    "fruit = [\"apple\", \"banana\", \"mango\", \"grape\"]\n",
+    "\n",
+    "for i in range(len(fruit)):\n",
+    "  print(fruit[i])\n",
+    "\n",
+    "i = 0\n",
+    "while i < len(fruit):\n",
+    "  print(fruit[i])\n",
+    "  i = i + 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "e59566b9-6c48-4007-ae91-762c7dc74d83",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['apple', 'banana', 'banana', 'grape', 'kiwi', 'lichi']\n",
+      "['lichi', 'kiwi', 'grape', 'banana', 'banana', 'apple']\n"
+     ]
+    }
+   ],
+   "source": [
+    "#sort\n",
+    "fruit=[\"banana\",\"apple\",\"kiwi\",\"lichi\",\"grape\",\"banana\"]\n",
+    "fruit.sort()\n",
+    "print(fruit)\n",
+    "#reverse\n",
+    "fruit.reverse()\n",
+    "print(fruit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "6675ffa1-242a-4841-9355-eccb5f737aed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['banana', 'apple', 'kiwi', 'lichi', 'grape', 'banana']\n",
+      "['papaya', 'watermelon', 'banana', 'apple', 'kiwi', 'lichi', 'grape', 'banana']\n"
+     ]
+    }
+   ],
+   "source": [
+    "#copy\n",
+    "fruit=[\"banana\",\"apple\",\"kiwi\",\"lichi\",\"grape\",\"banana\"]\n",
+    "fruits=fruit.copy()\n",
+    "print(fruits)\n",
+    "\n",
+    "#join\n",
+    "fruit=[\"banana\",\"apple\",\"kiwi\",\"lichi\",\"grape\",\"banana\"]\n",
+    "fruits=[\"papaya\",\"watermelon\"]\n",
+    "fruitss=fruits + fruit\n",
+    "print(fruitss)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "9527daa4-5275-4b9b-a696-4bf047447b1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n",
+      "<class 'tuple'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#tuple(order,unchangeable,duplicate)\n",
+    "fruit=(\"apple\",\"kiwi\",\"mango\",\"lichi\")\n",
+    "print(len(fruit))\n",
+    "fruit=(\"banana\",)\n",
+    "print(type(fruit))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "fc26d99c-652b-4522-977a-fa96664117e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "lichi\n"
+     ]
+    }
+   ],
+   "source": [
+    "#tuple\n",
+    "fruit=(\"apple\",\"kiwi\",\"mango\",\"lichi\")\n",
+    "#access\n",
+    "print(fruit[3])\n",
+    "# if item exists or not \n",
+    "#   print(\"yes\")\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "75998fae-5c37-43c7-9ede-4c3d906489c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('papaya', 'watermelon', 'apple', 'banana')\n",
+      "('papaya', 'watermelon', 'banana')\n",
+      "papaya\n",
+      "['watermelon']\n",
+      "banana\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruit=['papaya', 'watermelon', 'apple', 'kiwi']\n",
+    "#update(convert into another data type)\n",
+    "fruits =list(fruit)\n",
+    "fruits[3]=\"banana\"\n",
+    "fruit=tuple(fruits)\n",
+    "print(fruit)\n",
+    "#remove\n",
+    "fruits =list(fruit)\n",
+    "fruits.remove(\"apple\")\n",
+    "fruit=tuple(fruits)\n",
+    "print(fruit)\n",
+    "#unpack tuple\n",
+    "(blue,*green,red)=fruit\n",
+    "print(blue)\n",
+    "print(green)\n",
+    "print(red)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "719665f8-06e5-4c8e-ab9e-efab53759fec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "papaya\n",
+      "watermelon\n",
+      "apple\n",
+      "banana\n",
+      "papaya\n",
+      "watermelon\n",
+      "apple\n",
+      "banana\n"
+     ]
+    }
+   ],
+   "source": [
+    "#loop\n",
+    "fruit=('papaya', 'watermelon', 'apple', 'banana')\n",
+    "for i in range(len(fruit)):\n",
+    "  print(fruit[i])\n",
+    "\n",
+    "i = 0\n",
+    "while i < len(fruit):\n",
+    "  print(fruit[i])\n",
+    "  i = i + 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "c5bcf159-6c01-4cf9-9012-49c9f6cffd3b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "<class 'set'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#sets{unorder,unchange,no duplicate}\n",
+    "color={\"red\",\"blue\",\"black\",\"brown\",\"yellow\"}\n",
+    "print(len(color))\n",
+    "print(type(color))\n",
+    "       "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "88f6db3b-c173-433f-b9ee-4780cad409ca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n",
+      "{'black', 'yellow', 'magenta', 'red', 'blue', 'brown'}\n",
+      "{'black', 'yellow', 'magenta', 'red', 'blue'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#sets\n",
+    "color={\"red\",\"blue\",\"black\",\"brown\",\"yellow\"}\n",
+    "#access\n",
+    "print(\"brown\" in color)\n",
+    "#add/update\n",
+    "color.add(\"magenta\")\n",
+    "print(color)\n",
+    "#remove/discard\n",
+    "color.remove(\"brown\")\n",
+    "print(color)\n",
+    "#loop\n",
+    "for x in color:\n",
+    "    print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "6ad7a918-6fa2-4cb2-83a2-55cdfecaac7b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'mango', 'blue', 'black', 'lichi'}\n",
+      "{'black', 'laxman', 'mango', 'blue', 'ram', 'lichi'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#sets\n",
+    "fruit={\"mango\",\"lichi\"}\n",
+    "color={\"blue\",\"black\"}\n",
+    "#union\n",
+    "set=fruit.union(color)\n",
+    "print(set)\n",
+    "name={\"ram\",\"laxman\"}\n",
+    "set= fruit.union(color,name)\n",
+    "print(set)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "df1b13d5-c533-483d-85f1-6b51d0091055",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mustang\n",
+      "4\n",
+      "<class 'dict'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#dict[change,order,no duplicate]\n",
+    "car= {\n",
+    "  \"brand\": \"Ford\",\n",
+    "  \"model\": \"Mustang\",\n",
+    "  \"electric\": False,\n",
+    "  \"year\": 1964\n",
+    "}\n",
+    "print(car[\"model\"])\n",
+    "print(len(car))\n",
+    "print(type(car))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 82,
+   "id": "14736c18-ab79-4007-bb4d-21fff11d660e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mustang\n",
+      "dict_keys(['brand', 'model', 'electric', 'year'])\n",
+      "dict_keys(['brand', 'model', 'electric', 'year', 'color'])\n",
+      "dict_values(['Ford', 'Mustang', False, 1964, 'black'])\n",
+      "dict_values(['Ford', 'Mustang', 'true', 1964, 'black'])\n"
+     ]
+    }
+   ],
+   "source": [
+    "#dict\n",
+    "car= {\n",
+    "  \"brand\": \"Ford\",\n",
+    "  \"model\": \"Mustang\",\n",
+    "  \"electric\": False,\n",
+    "  \"year\": 1964\n",
+    "}\n",
+    "#access(use get)\n",
+    "a=car.get(\"model\")\n",
+    "print(a)\n",
+    "#keys\n",
+    "a=car.keys()\n",
+    "print(a)\n",
+    "car[\"color\"]=\"black\"\n",
+    "print(a)\n",
+    "#values\n",
+    "a=car.values()\n",
+    "print(a)\n",
+    "car[\"electric\"]=\"true\"\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "c7b8fa66-b0a1-429a-8ef6-a888d1018d1e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'brand': 'Ford', 'model': 'Mustang', 'year': 2000}\n",
+      "{'brand': 'Ford', 'model': 'Mustang', 'year': 2024, 'color': 'red'}\n",
+      "{'brand': 'Ford', 'model': 'Mustang', 'color': 'red'}\n",
+      "{'brand': 'Ford', 'model': 'Mustang', 'color': 'red'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#dict\n",
+    "car = {\n",
+    "  \"brand\": \"Ford\",\n",
+    "  \"model\": \"Mustang\",\n",
+    "  \"year\": 1964\n",
+    "}\n",
+    "#change\n",
+    "car[\"year\"] = 2000\n",
+    "print(car)\n",
+    "#update\n",
+    "car.update({\"year\": 2024})\n",
+    "#add\n",
+    "car[\"color\"]=\"red\"\n",
+    "print(car)\n",
+    "#remove\n",
+    "car.pop(\"year\")\n",
+    "print(car)\n",
+    "#copy\n",
+    "vehicle=car.copy()\n",
+    "print(vehicle)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "0b89babe-65cf-4e08-a223-ce50ffbd94c2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "brand\n",
+      "model\n",
+      "year\n",
+      "Ford\n",
+      "Mustang\n",
+      "1964\n",
+      "brand Ford\n",
+      "model Mustang\n",
+      "year 1964\n"
+     ]
+    }
+   ],
+   "source": [
+    "#loops{for}\n",
+    "car = {\n",
+    "  \"brand\": \"Ford\",\n",
+    "  \"model\": \"Mustang\",\n",
+    "  \"year\": 1964\n",
+    "}\n",
+    "for x in car.keys():\n",
+    "    print(x)\n",
+    "for y in car.values():\n",
+    "    print(y)\n",
+    "for a,b in car.items():\n",
+    "    print(a,b)\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "d396d2fa-2d77-4e7a-91ec-4bebfdb98e28",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "lichi\n",
+      "guava\n",
+      "apple\n",
+      "banana\n",
+      "melon\n",
+      "kiwi\n"
+     ]
+    }
+   ],
+   "source": [
+    "#loops\n",
+    "#for\n",
+    "fruit=(\"lichi\",\"guava\",\"apple\",\"banana\",\"melon\",\"kiwi\")\n",
+    "for x in fruit:\n",
+    "  print(x)\n",
+    "#break    \n",
+    "  #if x ==\"melon\":\n",
+    "   #   break\n",
+    "#continue\n",
+    "   #  continue\n",
+    "   #print(x)\n",
+    "#range\n",
+    "#for x in range(4):\n",
+    " #  print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "7cdfeba9-0e7b-4d6b-8183-98dce7ec6919",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "#loops\n",
+    "i = 1\n",
+    "while i < 10:\n",
+    "  print(i)\n",
+    "  if i == 5:\n",
+    "    break\n",
+    "  i += 1\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "55d33202-7a79-4e8d-b055-c135bd5a42f8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#function()\n",
+    "#creating \n",
+    "def function():\n",
+    "    print(\"heyy\")\n",
+    "#calling\n",
+    "function():"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "3fb9b1d3-1448-484c-9e7d-6b75da07db1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ramsingh\n",
+      "shyamsingh\n"
+     ]
+    }
+   ],
+   "source": [
+    "#argument\n",
+    "def function(first):\n",
+    "    print(first + \"singh\")\n",
+    "function(\"ram\")\n",
+    "function(\"shyam\")    \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "d74e5912-7d34-42ac-b03e-23715c78b64f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "his name is shyam\n"
+     ]
+    }
+   ],
+   "source": [
+    "#*args(do not know about no of arguments)\n",
+    "def func(*name):\n",
+    "    print(\"his name is \" + name[1])\n",
+    "\n",
+    "func(\"ram\",\"shyam\",\"mohan\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "e86b44e8-f8ce-4358-945b-8230f6c7d6e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "amit singh\n"
+     ]
+    }
+   ],
+   "source": [
+    "#keyword argumentsdef function(first):\n",
+    "def function(first):\n",
+    "    print(first + \" singh\")\n",
+    "function(first=\"amit\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "3156ca1c-745c-462a-9faf-47134fcd3262",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "student is amit\n"
+     ]
+    }
+   ],
+   "source": [
+    "#arbitrary keyword arg(do not know about no of kw args)\n",
+    "def func(**student):\n",
+    "    print(\"student is \" + student[\"fname\"])\n",
+    "\n",
+    "func(fname =\"amit\" , lname=\"singh\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "7fed38f8-331e-4ffa-a5af-8f3565ffe714",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " my  student name is ram\n",
+      " my  student name is rohan\n",
+      " my  student name is shyam\n"
+     ]
+    }
+   ],
+   "source": [
+    "#def parameter value\n",
+    "def func(name =\"rohan\"):\n",
+    "    print(\" my  student name is \" + name)\n",
+    "\n",
+    "func(\"ram\")\n",
+    "func()\n",
+    "func(\"shyam\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "c78db8ae-d456-48ea-ac57-3458f5fa99bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apple\n",
+      "banana\n",
+      "kiwi\n"
+     ]
+    }
+   ],
+   "source": [
+    "#passing list as arg\n",
+    "def func(fruit):\n",
+    "  for x in fruit:\n",
+    "      print(x)\n",
+    "\n",
+    "fruit=[\"apple\",\"banana\",\"kiwi\"]\n",
+    "func(fruit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "aa7af188-fb21-47a2-ae0e-fa1d9f7acd77",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello hello hello hello hello \n",
+      "50\n",
+      "5.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "#return value\n",
+    "def func(a):\n",
+    "  return 5 * a\n",
+    "print (func(\"hello \"))\n",
+    "print(func(10))\n",
+    "print(func(1.0))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "21713aa8-04c7-4dc7-9aeb-067a407b242d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Positional-Only Arguments(use ,/ after arg)\n",
+    "def my_function(x, /):\n",
+    "  print(x)\n",
+    "\n",
+    "my_function(3)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "966b3274-8a19-4c7c-9f9b-63623213e00a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "#(Keyword-Only Arguments) add *, before the argument\n",
+    "def func(*, x):\n",
+    "    print(x)\n",
+    "\n",
+    "func(x=5)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "b5a044e2-4808-4b3d-979e-8175d427e901",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "18\n"
+     ]
+    }
+   ],
+   "source": [
+    "#lamda fuc(small anonymous function)\n",
+    "a = lambda x,y,z : x*y*z\n",
+    "print(a(1,3,6,))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "758daf31-5eb4-498d-a64d-d3f549c7b568",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n"
+     ]
+    }
+   ],
+   "source": [
+    "#lambda(using fun)\n",
+    "def fun(a):\n",
+    "  return lambda x:x*a\n",
+    "\n",
+    "multiple=fun(5)\n",
+    "print(multiple(2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "b15dad0b-e877-4d71-b426-17d9b8420eb6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['kiwi', 'apple', 'orange', 'lichi']\n",
+      "lichi\n",
+      "['kiwi', 'apple', 'banana', 'lichi']\n",
+      "4\n",
+      "['kiwi', 'apple', 'banana', 'lichi', 'mango']\n",
+      "['kiwi', 'banana', 'lichi', 'mango']\n",
+      "['kiwi', 'banana', 'lichi', 'mango']\n"
+     ]
+    }
+   ],
+   "source": [
+    "#array(used to store multiple values in one single variable)\n",
+    "#create\n",
+    "fruits =[\"kiwi\",\"apple\",\"orange\",\"lichi\"]\n",
+    "print(fruits)\n",
+    "#access\n",
+    "a=fruits[3]\n",
+    "print(a)\n",
+    "#change/update\n",
+    "fruits[2]=\"banana\"\n",
+    "print(fruits)\n",
+    "#length of array \n",
+    "x=len(fruits)\n",
+    "print(x)\n",
+    "#add\n",
+    "fruits.append(\"mango\")\n",
+    "print(fruits)\n",
+    "#remove\n",
+    "fruits.remove(\"apple\")\n",
+    "print(fruits)\n",
+    "#sort\n",
+    "fruits.sort\n",
+    "print(fruits)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "4123fe7a-3a1c-4c82-bb27-77a1ac82de11",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ram\n",
+      "kumar\n"
+     ]
+    }
+   ],
+   "source": [
+    "#classes\n",
+    "#(The __init__() function is called automatically every time the class is being used to create a new object)\n",
+    "class person:\n",
+    "    def __init__(hello,fname,lname):\n",
+    "      hello.fname=fname\n",
+    "      hello.lname=lname\n",
+    "\n",
+    "a=person(\"ram\",\"kumar\")\n",
+    "\n",
+    "print(a.fname)\n",
+    "print(a.lname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "2637a332-7be7-4c6e-8911-5398a685aafe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ram(singh)\n"
+     ]
+    }
+   ],
+   "source": [
+    "#classes\n",
+    "#The __str__() function controls what should be returned when the class object is represented as a string.\n",
+    "class person:\n",
+    "    def __init__(hello,fname,lname):\n",
+    "        hello.fname=fname\n",
+    "        hello.lname=lname\n",
+    "\n",
+    "    def __str__(hello):\n",
+    "        return f\"{hello.fname}({hello.lname})\"\n",
+    "\n",
+    "a=person(\"ram\",\"singh\")\n",
+    "print(a)\n",
+    "\n",
+    "     "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "329a34c5-e29d-4862-a48b-9f2b0324f0ff",
+   "metadata": {},
+   "source": [
+    "\n",
+    "\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "6d58ca85-d8a1-4c17-a0b7-c85cc6268fdb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello my name is raman\n"
+     ]
+    }
+   ],
+   "source": [
+    "#object method(Methods in objects are functions that belong to the object)\n",
+    "class person:\n",
+    "    def __init__(hello,name,age):\n",
+    "      hello.name=name\n",
+    "      hello.age=age \n",
+    "    def fun(hello):\n",
+    "        print(\"hello my name is \" + hello.name)\n",
+    "\n",
+    "a = person(\"raman\",40)\n",
+    "a.fun()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "c4de2d9b-c292-4333-8784-49bc16cd56b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my name is rama\n"
+     ]
+    }
+   ],
+   "source": [
+    "#self parameter(reference to the current instance of the class, and is used to access variables that belongs to the class)\n",
+    "class person:\n",
+    "    def __init__(hello,name,age):\n",
+    "      hello.name=name\n",
+    "      hello.age=age\n",
+    "    def fun(hey):\n",
+    "       print(\"my name is \" + hey.name)\n",
+    "\n",
+    "a=person(\"rama\",30)\n",
+    "a.fun()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "291da4cd-fb49-4a04-a4a5-6603e8da1f76",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "raman singh\n"
+     ]
+    }
+   ],
+   "source": [
+    "#inheritance \n",
+    "#create parent class\n",
+    "class person:\n",
+    "    def __init__(self,fname,lname):\n",
+    "        self.fname=fname\n",
+    "        self.lname=lname\n",
+    "\n",
+    "    def printname(self):\n",
+    "        print(self.fname,self.lname)\n",
+    "\n",
+    "a=person(\"raman\",\"singh\")\n",
+    "a.printname()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "2340a88a-75ac-40b7-973b-d53644619575",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mohan kumar\n"
+     ]
+    }
+   ],
+   "source": [
+    "#inheritance\n",
+    "#create child class\n",
+    "class person:\n",
+    "  def __init__(self, fname, lname):\n",
+    "    self.fname = fname\n",
+    "    self.lname = lname\n",
+    "\n",
+    "  def printname(self):\n",
+    "    print(self.fname, self.lname)\n",
+    "\n",
+    "class student(person):\n",
+    "  pass\n",
+    "\n",
+    "x = student(\"mohan\", \"kumar\")\n",
+    "x.printname()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "65a33a4a-5250-4d7a-96ad-1ddd2ee9ee1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apple\n",
+      "kiwi\n",
+      "banana\n"
+     ]
+    }
+   ],
+   "source": [
+    "#iterator(object that contains a countable number of values)\n",
+    "fruit=[\"apple\",\"kiwi\",\"banana\"]\n",
+    "myit=iter(fruit)\n",
+    "print(next(myit))\n",
+    "print(next(myit))\n",
+    "print(next(myit))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "4b3e5cba-5d1d-4ecb-b236-0138a8ea4f0b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "run\n",
+      "sail\n",
+      "fly\n"
+     ]
+    }
+   ],
+   "source": [
+    "#class polymorphism(Different classes with the same method)\n",
+    "class vehicle:\n",
+    "  def __init__(self,brand,model):\n",
+    "    self.brand=brand\n",
+    "    self.model=model\n",
+    "\n",
+    "  def move(self):\n",
+    "      print(\"move\")\n",
+    "\n",
+    "class car(vehicle):\n",
+    "  def move(self):\n",
+    "      print(\"run\")\n",
+    "      \n",
+    "class boat(vehicle):\n",
+    "  def move(self):\n",
+    "      print(\"sail\")\n",
+    "\n",
+    "class plane(vehicle):\n",
+    "  def move(self):\n",
+    "      print(\"fly\")\n",
+    "\n",
+    "car1=car(\"ford\",\"bmw\")\n",
+    "boat1=boat(\"wghfgb\",\"dfvfdv\")\n",
+    "plane1=plane(\"vvv\",\"vbbfew\")\n",
+    "\n",
+    "for x in (car1,boat1,plane1):\n",
+    "  x.move()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "2aab7fd1-6c41-4f27-abe6-5b71c6cd0fce",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ji7u7\n",
+      "ji7u7\n",
+      "run\n",
+      "btbth4\n",
+      "btbth4\n",
+      "sail\n",
+      "nbvcbvc\n",
+      "nbvcbvc\n",
+      "fly\n"
+     ]
+    }
+   ],
+   "source": [
+    "#inheritance class polymorphism\n",
+    "class vehicle:\n",
+    "    def __init__(self,brand,model):\n",
+    "        self.brand=brand\n",
+    "        self.model=model\n",
+    "    def move(self):\n",
+    "         print(\"move\")\n",
+    "\n",
+    "class car(vehicle):\n",
+    "    def move(self):\n",
+    "     print(\"run\")\n",
+    "\n",
+    "class boat(vehicle):\n",
+    "    def move(self):\n",
+    "     print(\"sail\")\n",
+    "\n",
+    "class plane(vehicle):\n",
+    "    def move(self):\n",
+    "      print(\"fly\")\n",
+    "\n",
+    "car1= car(\"vfrbt\",\"ji7u7\")\n",
+    "boat1=boat(\"fregb\",\"btbth4\")\n",
+    "plane1=plane(\"ukyg\",\"nbvcbvc\")\n",
+    "\n",
+    "for x in (car1,boat1,plane1):\n",
+    "    print(x.model)\n",
+    "    print(x.model)\n",
+    "    x. move()\n",
+    "    \n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "a799ce3b-0255-4aba-83d9-dbcb8281d981",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "#scope(local,global)\n",
+    "#local\n",
+    "def fun():\n",
+    "    x=100\n",
+    "    print(x)\n",
+    "\n",
+    "fun()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "a5e048f7-7f7d-47b2-be56-6dd7e2b399e8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n"
+     ]
+    }
+   ],
+   "source": [
+    "#global\n",
+    "x=200\n",
+    "def fun():\n",
+    "   print(x)\n",
+    "\n",
+    "fun()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "773f687f-4c2c-4230-8d13-9ec4102bee90",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "200\n",
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "#naming variable\n",
+    "x=100\n",
+    "def fun():\n",
+    "    x=200\n",
+    "    print(x)\n",
+    "\n",
+    "fun()\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "53921713-d90f-4062-8eff-a14fb1b9c925",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n"
+     ]
+    }
+   ],
+   "source": [
+    "#global keyword ( use the global keyword)\n",
+    "def fun():\n",
+    "    global x\n",
+    "    x=100\n",
+    "\n",
+    "fun()\n",
+    "print(x)\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "d86c7804-6bdc-4488-9f35-d7e9b7f52133",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "#non local keyword(variable will belong to the outer function)\n",
+    "def fun1():\n",
+    "  x = \"hey\"\n",
+    "  def fun2():\n",
+    "    nonlocal x\n",
+    "    x = \"hello\"\n",
+    "  fun2()\n",
+    "  return x\n",
+    "\n",
+    "print(fun1())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "93ef685d-a9e3-4dd7-899a-fea335f68bc0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "32\n",
+      "75\n",
+      "434\n",
+      "64\n",
+      "11.180339887498949\n",
+      "3\n",
+      "2\n",
+      "3.141592653589793\n"
+     ]
+    }
+   ],
+   "source": [
+    "#math\n",
+    "#max/min\n",
+    "x=min(32,45,42)\n",
+    "y=max(43,54,75)\n",
+    "print(x)\n",
+    "print(y)\n",
+    "\n",
+    "#positive value\n",
+    "z=abs(-434)\n",
+    "print(z)\n",
+    "\n",
+    "#power\n",
+    "a=pow(4,3)\n",
+    "print(a)\n",
+    "\n",
+    "#import\n",
+    "#square root\n",
+    "import math\n",
+    "p=math.sqrt(125)\n",
+    "print(p)\n",
+    "\n",
+    "#ceil(rounds a number upwards to its nearest integer)\n",
+    "#floor(rounds a number downwards to its nearest integer)\n",
+    "q=math.ceil(2.1)\n",
+    "r=math.floor(2.4)\n",
+    "print(q)\n",
+    "print(r)\n",
+    "\n",
+    "s=math.pi\n",
+    "print(s)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "8777f80a-9f57-4c2e-ab72-6df1b3f16d5a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2024\n",
+      "July\n",
+      "Saturday\n",
+      "34\n",
+      "34\n"
+     ]
+    }
+   ],
+   "source": [
+    "#dates\n",
+    "import datetime\n",
+    "x=datetime.datetime.now()\n",
+    "print(x.strftime(\"%Y\"))\n",
+    "print(x.strftime(\"%B\"))\n",
+    "print(x.strftime(\"%A\"))\n",
+    "print(x.strftime(\"%M\"))\n",
+    "print(x.strftime(\"%S\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "2deab009-cf13-42e4-97fa-b51fcdd3ec33",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mohan\n"
+     ]
+    }
+   ],
+   "source": [
+    "#json( syntax for storing and exchanging data)\n",
+    "#json to python(.loads)\n",
+    "import json\n",
+    "x='{\"name\":\"mohan\",\"age\":20,\"city\":\"delhi\"}'\n",
+    "y=json.loads(x)\n",
+    "print(y[\"name\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "925f0ac0-685f-45d2-b5a4-7cf446809ad2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{\"name\": \"mohan\", \"age\": 20, \"city\": \"delhi\"}\n"
+     ]
+    }
+   ],
+   "source": [
+    "#json(Python has a built-in package called json, which can be used to work with JSON data)\n",
+    "#python to json(.dumps)\n",
+    "import json\n",
+    "x={\"name\":\"mohan\",\"age\":20,\"city\":\"delhi\"}\n",
+    "y=json.dumps(x)\n",
+    "print(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "f429873e-8d6e-4b17-b577-f1dfb3d92bd9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'{\\n    \"age\": 30,\\n    \"cars\": [\\n        {\\n            \"model\": \"BMW 230\",\\n            \"mpg\": 27.5\\n        }\\n    ],\\n    \"children\": [\\n        \"mohan\",\\n        \"sohan\"\\n    ],\\n    \"divorced\": false,\\n    \"married\": true,\\n    \"name\": \"raman\",\\n    \"pets\": null\\n}'"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#json(format the result)\n",
+    "import json\n",
+    "\n",
+    "x = {\n",
+    "  \"name\": \"raman\",\n",
+    "  \"age\": 30,\n",
+    "  \"married\": True,\n",
+    "  \"divorced\": False,\n",
+    "  \"children\": (\"mohan\",\"sohan\"),\n",
+    "  \"pets\": None,\n",
+    "  \"cars\": [\n",
+    "    {\"model\": \"BMW 230\", \"mpg\": 27.5},\n",
+    "  ]   \n",
+    "}\n",
+    "#use of separotors\n",
+    "json.dumps(x, indent=4, separators=(\". \", \" = \"))\n",
+    "#orde the result\n",
+    "json.dumps(x, indent=4, sort_keys=True)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "48dcb171-6d5e-4b1a-8e75-1c946183073d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the input: ram\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "username is: ram\n"
+     ]
+    }
+   ],
+   "source": [
+    "#user input\n",
+    "username =input (\"enter the input:\")\n",
+    "print(\"username is: \"+username)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "4fc5a41b-70f6-4804-89eb-0daa07e2bfc9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n"
+     ]
+    }
+   ],
+   "source": [
+    "#string formatting(put f in front of string)\n",
+    "a=f\"hello world\"\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "9de8729b-a0f1-4444-8ecc-50ad08fe0d5c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "this rate is 10\n",
+      "this rate is 10.00\n"
+     ]
+    }
+   ],
+   "source": [
+    "#string format(placeholder,modifier)\n",
+    "price=10\n",
+    "a=f\"this rate is {price}\"\n",
+    "b=f\"this rate is {price:.2f}\"\n",
+    "print(a)\n",
+    "print(b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "3878b425-56f4-40ca-b81d-38572dadeacd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "error in try\n"
+     ]
+    }
+   ],
+   "source": [
+    "#exception handling\n",
+    "#try except\n",
+    "try:\n",
+    "    print(hello)\n",
+    "\n",
+    "except:\n",
+    "    print(\"error in try\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "9a631e20-8e13-4e26-8a51-2d4b8dbc8c40",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n",
+      "everthing is correct\n"
+     ]
+    }
+   ],
+   "source": [
+    "#else( block of code to be executed if no errors were raised)\n",
+    "try:\n",
+    "    print(\"hello\")\n",
+    "\n",
+    "except:\n",
+    "    print(\"hey\")\n",
+    "\n",
+    "else:\n",
+    "    print(\"everthing is correct\")\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "7366f56f-353f-42f6-8c75-66b3d9bafc48",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n",
+      "everthing is correct\n"
+     ]
+    }
+   ],
+   "source": [
+    "#finally(block  will be executed regardless if the try block raises an error or not.\n",
+    "try:\n",
+    "    print(\"hello\")\n",
+    "\n",
+    "except:\n",
+    "    print(\"hey\")\n",
+    "\n",
+    "finally:\n",
+    "    print(\"everthing is correct\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c2a6f69b-ddb3-44d1-8ae3-5eab6097ec4b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#fle handling()\n",
+    "#syntax\n",
+    "f=open(\"file.txt\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d784a1b2-b649-46f2-a383-2376710024ca",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#file open\n",
+    "#open file on server \n",
+    "f=open(\"file.txt\",\"r\")\n",
+    "print(f.read())\n",
+    "\n",
+    "#Read Only Parts of the File(first 5 char of file)\n",
+    "print(f.read(5))\n",
+    "\n",
+    "#read lines(return reading line by line)\n",
+    "f = open(\"demofile.txt\", \"r\")\n",
+    "print(f.readline())\n",
+    "print(f.readline())\n",
+    "\n",
+    "#close the file\n",
+    "f = open(\"demofile.txt\", \"r\")\n",
+    "print(f.readline())\n",
+    "f.close()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9934bb04-148a-4af7-b00f-31f0578f9ca9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#write\n",
+    "#Write to an Existing Filef = open(\"demofile2.txt\", \"a\")\n",
+    "f = opem(\"file.txt\", \"a\")\n",
+    "f.write(\"Now the file has more content!\")\n",
+    "f.close()\n",
+    "\n",
+    "#open and read the file after the appending:\n",
+    "f = open(\"file.txt\", \"r\")\n",
+    "print(f.read())\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a3606e75-cc1d-4462-9d7d-09668fd05cd4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#create\n",
+    "f = open(\"file.txt\", \"x\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "47229940-d4a1-44bf-ab6b-75d34a508ee8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#delete file\n",
+    "import os\n",
+    "os.remove(\"file.txt\")\n",
+    "\n",
+    "#delete folder \n",
+    "import os\n",
+    "os.rmdir(\"folder\")"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
